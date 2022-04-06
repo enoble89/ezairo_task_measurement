@@ -1,0 +1,51 @@
+{
+  "name": "task_detector",
+  "apiVersion": "1.0.0",
+  "author": "Evan Noble",
+  "version": "0.0.1",
+  "description": "",
+  "extensions": {
+    "task_detector": {
+      "type": "DigitalMeasurement",
+      "entryPoint": "DigitalMeasurement.MyDigitalMeasurer",
+      "metrics": {
+        "signal_path_bypass": {
+          "name": "signal_path_bypass",
+          "notation": "bypass"
+        },
+        "signal_path": {
+          "name": "signal_path",
+          "notation": "sp"
+        },
+        "freq_shift": {
+          "name": "freq_shift",
+          "notation": "fs"
+        },
+        "aux_out": {
+          "name": "aux_out",
+          "notation": "aux"
+        },
+        "compressor": {
+          "name": "compressor",
+          "notation": "comp"
+        },
+        "tnr": {
+          "name": "tnr",
+          "notation": "tnr"
+        },
+        "sig_gen": {
+          "name": "sig_gen",
+          "notation": "sgen"
+        },
+        "mpo": {
+          "name": "mpo",
+          "notation": "mpo"
+        },
+        "virtual_fb": {
+          "name": "virtual_fb",
+          "notation": "vfb"
+        }
+      }
+    }
+  }
+}
