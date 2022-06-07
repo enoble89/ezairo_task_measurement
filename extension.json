@@ -44,6 +44,22 @@
         "virtual_fb": {
           "name": "virtual_fb",
           "notation": "vfb"
+        },
+        "mlnr": {
+          "name": "mlnr",
+          "notation": "mlnr"
+        },
+        "fbm_update": {
+          "name": "fbm_update",
+          "notation": "fbm_u"
+        },
+        "fbm": {
+          "name": "fbm",
+          "notation": "fbm"
+        },
+        "volume": {
+          "name": "volume",
+          "notation": "vol"
         }
       }
     }

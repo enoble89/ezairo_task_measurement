@@ -8,11 +8,15 @@ tasks = [
         'signal_path_bypass',
         'freq_shift',
         'aux_out',
+        'fbm_update',
         'compressor',
         'tnr',
         'sig_gen',
         'mpo',
         'virtual_fb',
+        'fbm',
+        'mlnr',
+        'volume'
 ]
 
 class MyDigitalMeasurer(DigitalMeasurer):
